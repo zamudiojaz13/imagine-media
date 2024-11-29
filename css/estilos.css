@@ -68,8 +68,8 @@ main{
 }
 
 #quienes-somos .container {
-    max-width: 1320px;
     background-color: rgb(21, 6, 73);
+    overflow: hidden;
 }
 
 #quienes .content {
