@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div id="barra" class="container-flui">
             <h1 id="logo">Imagine Media</h1>
             <nav class="navbar  navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
 
         <section id="quienes-somos">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-md-8">
                         <h2 class="section-title">¿Quiénes somos?</h2>
                         <ul>
@@ -69,7 +69,7 @@
                             <li class="bienvenida">¡Bienvenidos a Imagine Media, donde cada idea tiene el potencial de convertirse en una obra maestra!</li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div id="video" class="col-md-4">
                         <video width="100%" autoplay loop muted poster="imagen-poster.jpg">
                             <source src="images/vdieo.mp4" type="video/mp4">
                         </video>
@@ -84,9 +84,9 @@
         <div>
             <h2 class="section-title">Valores y enfoques</h2>
         </div>
-        <div class="row justify-content-center">
+        <div id="iconos-valores" class="row"> 
             <div class="col-12 col-sm-6 col-md-3 card">
-                <div class="image-container position-relative">
+                <div class="image-container"> 
                     <img src="images/creatividad.png" alt="icono creatividad" class="w-100">
                     <div class="text-container">
                         <p>Desarrollamos conceptos originales que hacen destacar a nuestros clientes, combinando estrategia y diseño para generar soluciones visuales impactantes.</p>
@@ -95,7 +95,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-3 card">
-                <div class="image-container position-relative">
+                <div class="image-container">
                     <img src="images/innovacion.png" alt="icono innovación" class="w-100">
                     <div class="text-container">
                         <p>Utilizamos herramientas de última generación para asegurar que cada pieza de contenido esté a la vanguardia en términos de diseño y funcionalidad.</p>
@@ -104,7 +104,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-3 card">
-                <div class="image-container position-relative">
+                <div class="image-container">
                     <img src="images/disenio.png" alt="icono diseño centrado en el usuario" class="w-100">
                     <div class="text-container">
                         <p>Nuestro enfoque está en crear experiencias intuitivas y atractivas, pensando siempre en la mejor experiencia para los usuarios finales.</p>
@@ -113,7 +113,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-3 card">
-                <div class="image-container position-relative">
+                <div class="image-container">
                     <img src="images/adaptabilidad.png" alt="icono adaptabilidad" class="w-100">
                     <div class="text-container">
                         <p>Nos especializamos en soluciones flexibles que se adaptan a las necesidades de cada cliente y proyecto, garantizando un crecimiento sostenido a medida que tu marca evoluciona.</p>
@@ -126,34 +126,34 @@
 
     <section id="opiniones" class="container">
         <h2 class="section-title">Opiniones de clientes</h2>
-        <div class="row justify-content-center">
+        <div id="comentarios-opiniones" class="row"> <!--justify-content-center-->
           <div class="col-12 col-md-8 mb-4 sm-10">
-            <div class="d-flex flex-column flex-md-row align-items-center p-4 border rounded bg-light">
-              <img src="images/coment1.png" alt="Avatar Javier" class="rounded-circle me-md-4 mb-3 mb-md-0" style="width: 80px; height: 80px;">
+            <div id="comentarios" class="border rounded bg-light"> 
+              <img src="images/coment1.png" alt="Avatar Javier" class="rounded-circle me-md-4 mb-3 mb-md-0">
               <div>
-                <p class="mb-2 text-center text-md-start">"Trabajar con Imagine Media fue una experiencia increíble. Captaron exactamente lo que queríamos para nuestra marca y superaron nuestras expectativas. ¡Los recomendamos sin dudas!"</p>
-                <p class="fw-bold text-primary mb-0 text-center text-md-start">Javier Morales</p>
-                <small class="text-muted d-block text-center text-md-start">Fundador de EcoTrends</small>
+                <p class="mb-2">"Trabajar con Imagine Media fue una experiencia increíble. Captaron exactamente lo que queríamos para nuestra marca y superaron nuestras expectativas. ¡Los recomendamos sin dudas!"</p>
+                <p class="fw-bold text-primary mb-0">Javier Morales</p>
+                <small class="text-muted d-block ">Fundador de EcoTrends</small>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-8 mb-4 sm-10">
-            <div class="d-flex flex-column flex-md-row align-items-center p-4 border rounded bg-light">
-              <img src="images/coment2.png" alt="Avatar Ana" class="rounded-circle me-md-4 mb-3 mb-md-0" style="width: 80px; height: 80px;">
+            <div id="comentarios" class="border rounded bg-light">
+              <img src="images/coment2.png" alt="Avatar Ana" class="rounded-circle me-md-4 mb-3 mb-md-0">
               <div>
-                <p class="mb-2 text-center text-md-start">"El equipo de Imagine Media hizo un trabajo excepcional en nuestro rediseño web. Su creatividad y atención al detalle realmente destacaron."</p>
-                <p class="fw-bold text-primary mb-0 text-center text-md-start">Ana Rodríguez</p>
-                <small class="text-muted d-block text-center text-md-start">Directora de Marketing en Innovate Solutions</small>
+                <p class="mb-2">"El equipo de Imagine Media hizo un trabajo excepcional en nuestro rediseño web. Su creatividad y atención al detalle realmente destacaron."</p>
+                <p class="fw-bold text-primary mb-0">Ana Rodríguez</p>
+                <small class="text-muted d-block">Directora de Marketing en Innovate Solutions</small>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-8 mb-4 sm-10">
-            <div class="d-flex flex-column flex-md-row align-items-center p-4 border rounded bg-light">
-              <img src="images/coment3.png" alt="Avatar Laura" class="rounded-circle me-md-4 mb-3 mb-md-0" style="width: 80px; height: 80px;">
+            <div id="comentarios" class="border rounded bg-light">
+              <img src="images/coment3.png" alt="Avatar Laura" class="rounded-circle me-md-4 mb-3 mb-md-0">
               <div>
                 <p class="mb-2 text-center text-md-start">"Desde el primer contacto, Imagine Media demostró profesionalismo y creatividad. Su enfoque innovador nos ayudó a destacar en el mercado. ¡Muchas gracias por el gran trabajo!"</p>
-                <p class="fw-bold text-primary mb-0 text-center text-md-start">Laura Fernández</p>
-                <small class="text-muted d-block text-center text-md-start">Gerente de Producto en VisionTech</small>
+                <p class="fw-bold text-primary mb-0">Laura Fernández</p>
+                <small class="text-muted d-block">Gerente de Producto en VisionTech</small>
               </div>
             </div>
           </div>
